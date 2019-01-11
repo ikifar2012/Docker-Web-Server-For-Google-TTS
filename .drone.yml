@@ -2,7 +2,7 @@ kind: pipeline
 name: latest
 
 steps:
-- name: docker  
+- name: docker
   image: plugins/docker
   settings:
     repo: ikifar/docker-web-server-for-google-tts
