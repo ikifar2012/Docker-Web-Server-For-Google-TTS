@@ -1,3 +1,6 @@
+kind: pipeline
+name: latest
+
 steps:
 - name: docker  
   image: plugins/docker
